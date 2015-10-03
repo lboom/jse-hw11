@@ -1,2 +1,18 @@
-<h1>{{title}}</h1>
+<head><title>{{title}}</title></head>
 <p>Welcome to {{title}}</p>
+<p>Please log in</p>
+<form action='login'>
+  Username:<br>
+  <input type='text' name='user'>
+  <br>
+  Password:<br>
+  <input type='password' name='pass'>
+  <br><br>
+  <input type='submit' value='Login'>
+</form>
+<br><br>
+<p>Don't have an account? Create one</p>
+<br>
+<form action='create'>
+  <button type='input' id='create'>Create</button>
+</form>
