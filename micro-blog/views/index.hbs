@@ -1,14 +1,16 @@
-<head><title>{{title}}</title></head>
+<head><title>{{title}}</title>
+  <script type='text/javascript' src='/public/javascripts/models.js'></script>
+</head>
 <p>Welcome to {{title}}</p>
 <p>Please log in</p>
-<form action='login'>
+<form action='login' method='post'>
   Username:<br>
   <input type='text' name='user'>
   <br>
   Password:<br>
   <input type='password' name='pass'>
   <br><br>
-  <input type='submit' value='Login'>
+  <button type='submit' id='login'>Login</button>
 </form>
 <br><br>
 <p>Don't have an account? Create one</p>
