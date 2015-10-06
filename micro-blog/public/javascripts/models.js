@@ -19,3 +19,14 @@ var PostModel = Backbone.model.extend({
     timestamp: ''
   }
 });
+
+// Posts
+var UserPostModel = Backbone.model.extend({
+  defaults: {
+// any?
+  }
+});
+
+var UserPostsCollection = Backbone.Collection.extend({
+	model: UserPostModel
+});
