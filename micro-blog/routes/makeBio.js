@@ -6,3 +6,4 @@ router.get('/',  { title: 'Create your bio'});
 });
 
 module.exports = router;
+
