@@ -3,7 +3,8 @@
 
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: ;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 a {
@@ -13,24 +14,60 @@ a {
 
 
 input {
-
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
 
+/* general styles */
 button {
 
 }
 
+#header {
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+
+/* login button */
+#login {
+
+}
 /* ("welcome to") */
 h1{
 
 }
-/* ("please log in", "create a new account") */
+
+#loginForm {
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+/* ("please log in", "don't have an account?...""create a new account", "thank you for signing up!") */
 h2 {
 
 }
 
+#newUser {
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+
 /* newuser.hbs */
 
-#thankyou {
+#createHeader {
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+
+#newuserForm {
+  width: 50%;
+  margin: 1%;
+  padding: 1%;
+}
+
+#signupMsg {
 
 }
