@@ -8,10 +8,9 @@ var database = {
   },
   posts: [
     // sample posts
-    // XXX change the timestamps soon
-    {id: 0, text: 'The Flaming Carrot is boss!', author: 'elijah', timestamp: 1},
-    {id: 1, text: 'When the walls fell...', author: 'wendy', timestamp: 1},
-    {id: 2, text: 'Dont know nothin bout no handlebars -eric', author: 'louise', timestamp: 1}
+    {id: 0, text: 'The Flaming Carrot is boss!', author: 'elijah', timestamp: 1444241610462},
+    {id: 1, text: 'When the walls fell...', author: 'wendy', timestamp: 1444241610463},
+    {id: 2, text: 'Dont know nothin bout no handlebars -eric', author: 'louise', timestamp: 1444241610464}
   ]
 }
 
