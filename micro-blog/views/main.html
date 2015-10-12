@@ -1,11 +1,48 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Micro-blog</title>
-    <script type='text/javascript'
-      src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js'></script>
+    <title>Micro-Blog</title>
+    <!-- you may replace these CDN urls with local files if you prefer -->
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js'></script
+    <!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='my.css'>
+    <script type="text/javascript" src="models.js"></script>
+    <script type="text/javascript" src="views.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
-    <p>it's working!</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+                  <div id="app">
+                    <h2>Welcome to Micro-Blog</h2>
+                    <form id ="local-sign-in" action="/login" method="post">
+                      <form id="form-inline" role="form" id="loginForm">
+                        <div class="form-group">
+                          <label for="username">username:</label>
+                          <input type="username" class="form-control" id="username">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="checkbox">
+                          <label><input type="checkbox"> Remember me </label>
+                        </div>
+                        <button type="submit" class="btn btn-danger" id="signin">Submit</button>
+                      </form>
+                  </form>
+            </div>
+      </div>
+    </div>
+    </div>
   </body>
 </html>

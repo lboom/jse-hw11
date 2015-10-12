@@ -1,19 +1,26 @@
 <head><title>{{title}}</title></head>
-<p>Welcome to micro-blog</p>
-<h2 style="color:red">{{error}}</h2>
-<p>Please log in</p>
+<div id="header"><h1>Welcome to Micro-Blog</h1> </div>
+
+<div id="loginForm">
+  <h2>Please log in:</h2>
 <form action='login' method='post'>
-  Username:<br>
+  Username:
+  <br>
   <input type='text' name='user'>
   <br>
   Password:<br>
   <input type='password' name='pass'>
-  <br><br>
-  <button type='submit' id='login'>Login</button>
+  <br>
+  <br>
+  <button type='submit'  id='login'>Login</button>
 </form>
+<h4 style="color:red">{{error}}</h4>
+</div>
 <br><br>
-<p>Don't have an account? Create one</p>
+<div id="noAct">
+<h2>Don't have an account? Create one!</h2>
 <br>
 <form action='create'>
-  <button type='input' id='create'>Create</button>
+  <button type='input' id='makeAct'>Create</button>
 </form>
+</div>

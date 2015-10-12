@@ -1,3 +1,25 @@
 <head><title>{{title}}</title></head>
-<p>Thank you for signing up!</p>
+<div id=signupMsg>
+<h2>Thank you for signing up!</h2>
 <br>
+</div>
+<div id="newBioForm">
+	<h3>Hi{{newUser}}! Welcome to micro-blog</h3>
+	<div id="bioPic">
+		<h3>Choose a profile picture:</h3>
+		{{!-- method for uploading file --}}
+		<!-- var pic = document.getElementById(''); -->
+	</div>
+	<div id="handle">
+		<h3>Please choose a handle:</h3>
+		<input type='text' name='userHandle'>
+	</div>
+
+	<div id="headline">
+		<h3>Describe yourself:</h3>
+    <!-- Example text, make disappear? -->
+		<textarea id= name='userHeadLine'></textarea>
+    <p>
+	</div>
+	<button type='submit' id='createBio'>Done</button>
+</div>
