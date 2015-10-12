@@ -1,12 +1,33 @@
 /* UserView */
+#app {
+}
+
+button:hover {
+  /*background-color: white;*/
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* */
 /* Header Div */
 #header {
-
+  padding-bottom: 10px;
+  margin: 1%;
+  padding: 1%;
+  text-align:right;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: block;
 }
 
 #logoutBtn {
-
+  margin: 1%;
+  float: left;
 }
 
 
@@ -20,12 +41,12 @@
 
 }
 
-/* "Home" */
+/* Welcome, ____ */
 h1 {
-
+  margin: 0%;
 }
 
-/* Welcome, ____ */
+
 h2 {
 
 }
@@ -34,11 +55,22 @@ h2 {
 
 /* CreatePostView */
 #createPost {
+  float:right;
+  width: 300px;
 
 }
 
 #post {
 
+}
+
+#postBox {
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  border-radius: 3px;
 }
 
 #postBtn {
@@ -56,6 +88,10 @@ h2 {
 
 }
 
-
-
 /* RecentPostsView */
+
+#recentPosts{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -7,6 +7,8 @@ var router = express.Router();
 router.post('/', function(req, res, next) {
   // post request passes args to this, where are they?
   res.render('newuser', { title: 'Welcome new user!' });
+
+  //functionality of newBioForm goes in here too?
 });
 
 module.exports = router;

@@ -12,7 +12,7 @@ router.post('/', function(req, res, next) {
   if (data.list('users')[user]) {
     if (data.list('users')[user].username === user && data.list('users')[user].password === pass) {
       // XXX will serve main page with posts and bio and whatnot
-      res.send('it worked!');
+      res.redirect('/home');
     } else {
       // render login page with error message
       res.render('index', {error: 'Wrong username or password'});

@@ -13,7 +13,6 @@ a {
 }
 
 
-
 input {
   margin-top: 1%;
   margin-bottom: 3%;
@@ -30,6 +29,10 @@ button {
   font-weight: 300;
   letter-spacing: 0.75px;
   border-radius: 3px;
+}
+
+button:hover {
+  background-color: white;
 }
 
 #header {
